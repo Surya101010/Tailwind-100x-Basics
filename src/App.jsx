@@ -9,6 +9,9 @@ function App() {
 
   return (<>
   <Sidebar />
+   <button onClick={()=>{
+    document.querySelector("html").classList.toggle("dark");
+  }}>Theme</button>
   </>
     
   )
